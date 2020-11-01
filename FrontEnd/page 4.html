@@ -1,0 +1,114 @@
+<!DOCTYPE html>   <!--//html 5--> 
+<!-- HTML = Hypertext Markup Language -->
+<html>
+    <head>
+        <!--  meta first && script the last thing in head--> 
+        <meta charset="utf-8" >
+        <!-- support arabic language -->
+        <meta name="description" content="Medical website">
+        <!--decription to website when anyone search on it  -->
+        
+        <title>Our Table Page </title>
+        <style>
+            table,td {text-align: center}
+            thead td 
+            {
+                font-weight: bold ;
+                text-align: center ;
+                color: #FFF ;
+                background: #333 ;
+                padding: 5px ;
+            }
+            tfoot td 
+            {
+                font-weight: bold ;
+                text-align: center ;
+                color: #F00 ;
+                background: #DDD ;
+                padding: 5px ;
+            }
+           
+        </style>
+        
+    </head>
+    <body>
+        <h1>Table</h1>
+        <table width="400" border="1">
+            <caption>This is my web skills</caption>
+            
+            <tr>
+                <th>Date</th>
+                <th colspan="2">html</th> 
+                <th>js</th>
+                <th>php</th>
+            </tr>
+            <tr>
+                <td>october</td>
+                <td rowspan="2">50%</td>
+                <td>40%</td>
+                <td>30%</td>
+                <td>90%</td>
+            </tr>
+            <tr>
+                <td>september</td>
+                <td>70%</td>
+                <td>60%</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>september</td>
+                <td>70%</td>
+                <td>60%</td>
+                <td>100%</td>
+            </tr>
+        </table>
+        <br><br>
+        <table>
+            <caption>our hosting plan</caption>
+            <colgroup>
+                <col span="1" style="background: #EEE">
+                <col span="3" style="background: #DDD">
+                
+            </colgroup>
+            <thead>
+                <tr>
+                    <td>plan 1</td>
+                    <td>plan 2</td>
+                    <td>plan 3</td>
+                    <td>plan 4</td>
+                </tr>
+            </thead>
+            <tfoot>
+                <tr>
+                    <td>50 $</td>
+                    <td>70 $</td>
+                    <td>40 $</td>
+                    <td>56 $</td>
+                </tr>
+            </tfoot>  
+            <tbody>
+                <tr>
+                    <td>Hard Disk 30GB</td>
+                    <td>Hard Disk 50GB</td>
+                    <td>Hard Disk 60GB</td>
+                    <td>Hard Disk 40GB</td>
+                </tr>
+                <tr>
+                    <td>5 database</td>
+                    <td>7 database</td>
+                    <td>9 database</td>
+                    <td>12 database</td>
+                </tr>
+                <tr>
+                    <td>3 FTp</td>
+                    <td>9 FTp</td>
+                    <td>5 FTp</td>
+                    <td>9 FTp</td>
+                </tr>
+            </tbody>  
+        
+        </table>
+    </body>
+</html>
+
+//video 16

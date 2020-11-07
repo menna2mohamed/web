@@ -1,0 +1,92 @@
+<!DOCTYPE html>   <!--//html 5--> 
+<!-- HTML = Hypertext Markup Language -->
+<html>
+    <head>
+        <!--  meta first && script the last thing in head--> 
+        <meta charset="utf-8" >
+        <!-- support arabic language -->
+        <meta name="description" content="Medical website">
+        <!--decription to website when anyone search on it  -->
+        
+        <title>Our Form Page </title>
+        <script>
+            function sayHello()
+            {
+                alert("Hello HTML");
+            }
+        </script>
+        <style>
+           fieldset
+            {
+                background: #EFEFEF ;
+                padding: 10px ;
+                border: 1px solid #CCC ;
+                margin-bottom: 20px ;
+            }
+            legend
+            {
+                background: #FFF ;
+                padding: 5px ;
+                border: 1px solid #CCC ;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <h1>Form</h1>
+        <form name="register" method="post">
+            <fieldset>
+                <legend>personal info</legend>
+                <label>User Name :</label>
+                <input type="text" name="username" placeholder="Type Your Name" maxlength="10">
+                <br><br>
+                <label>password :</label>
+                <input type="password" name="password">
+                <br><br>
+                <label>your message</label>
+                <textarea rows="6" cols="50" readonly>this note you cannot Edit
+                </textarea>
+                <br><br>
+                <input type="hidden">
+                <label>Upload your cv</label>
+                <input type="file">
+                <br><br>
+                <input type="checkbox" >
+                <label>Remember Me</label>
+                <br>
+            </fieldset>
+            <br>
+            <select name="time">
+            <!--disable & size="2" & mutiple (more than one select) -->
+                <optgroup label="near time">
+                    <option value="1" > tomorrow</option>
+                    <!--disable & selected & value that value that send to another  page-->
+                    <option value="2">now</option>
+                    <option value="3">after a week</option>
+                </optgroup>   
+                <optgroup label="far time">
+                    <option value="4">after a year</option>
+                    <option value="5">after 10 years</option>
+                    <option value="6">after a 20 years</option>
+                </optgroup>    
+            </select>
+            <br><br>
+            <label>choose your browser</label>
+            <br>
+            <input type="radio" name="browser" value="chrome">chrome<br>
+            <input type="radio" name="browser" value="firefox">firefox<br>
+            <input type="radio" name="browser" value="opera">opera<br>
+            <br><br>
+            <input type="button" name="say hello" value="Say Hello" onclick="sayHello()">
+            <br><br>
+            <input type="reset" >
+            <br><br>
+            <input type="submit" value="Sign up">
+            <br><br>
+            <input type="image" src="http://placehold.it/100/100" alt="submit">
+            <!--image when click on it ,it go to another page and send x and y coordinate of click in image -->
+        </form>
+    </body>
+</html>
+
+//video 20

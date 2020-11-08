@@ -1,0 +1,107 @@
+<!DOCTYPE html>   <!--//html 5--> 
+<!-- HTML = Hypertext Markup Language -->
+<html>
+    <head>
+        <!--  meta first && script the last thing in head--> 
+        <meta charset="utf-8" >
+        <!-- support arabic language -->
+        <meta name="description" content="Medical website">
+        <!--decription to website when anyone search on it  -->
+        
+        <title>Our Page </title>
+        <script>
+        </script>
+        <style>
+            body
+            {
+               background: #EFEFEF ;
+               font-family: Arial, Tahoma ;
+            }
+            fieldset
+            {
+                background: #FFF ;
+                border: 1px solid #CCC ;
+                padding: 20px ;
+                width: 500px ;
+                margin: 20px auto ;
+            }
+            legend
+            {
+                background: #FFF ;
+                border: 1px solid #CCC ;
+                padding: 10px ;
+                
+            }
+            label , select 
+            {
+                display: block ;
+            }
+            label
+            {
+                margin-bottom: 10px ;
+            }
+            input
+            {
+                margin-bottom: 10px;
+                
+            }
+            input[type="text"],input[type="password"],textarea
+            {
+                padding: 8px ;
+                width: 300px ;
+                display: block ;
+            }
+            hr
+            {
+                border: 1px solid #EEE ;  
+            }
+            textarea
+            {
+                height: 200px ;
+                margin-bottom: 10px;  
+            }
+        </style>
+        
+    </head>
+    <body>
+      <form>
+        <fieldset>
+            <legend>personal inforamtion</legend>
+            <label>Username </label>
+            <input type="text" name="username">
+            <label>Password</label>
+            <input type="password" name="password">
+            <label>E-mail</label>
+            <input type="text" name="email">
+            <label>Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Your favourites</legend>
+            <label>Your favourite Text Editor </label>
+            <input type="radio" name="editor">komodoEdit<br>
+            <input type="radio" name="editor">Netbeans<br>
+            <input type="radio" name="editor">Sublime
+            <hr>
+            <label>Your favourite browser </label>
+            <input type="radio" name="browser">chrome<br>
+            <input type="radio" name="browser">firefox<br>
+            <input type="radio" name="browser">opera
+            <hr>
+            <label>Your favourite operating system </label>
+            <input type="checkbox" name="os">Mac<br>
+            <input type="checkbox" name="os">Linux<br>
+            <input type="checkbox" name="os">Windows
+        </fieldset>
+        <fieldset>
+          <legend>Your Message</legend>
+          <textarea></textarea>
+          <input type="submit" value="Send your Data">
+        </fieldset>  
+      </form>
+    </body>
+</html>
+

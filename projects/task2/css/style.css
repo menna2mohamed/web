@@ -1,16 +1,18 @@
 body{
 	/*background-color: black ;*/
 }
+.up{
+	position: fixed;
+}
 .head{
 	width: 70%;
-	height: 150px;	
+	height: 90px;	
 	margin: auto;
 }
 .head1
 {
-
 	width: 80%;
-	height: 150px;
+	height: 90px;
 }
 .head2{
 	float: right;
@@ -60,4 +62,18 @@ body{
 }
 .googleplus:hover{
 	background-image: url("../images/social-media/google-plus_1.png");
+}
+
+.nav{
+	background-color: black;
+	width: 70%;
+	margin: auto;
+	color: white;
+	text-align: justify;
+
+}
+li{
+	display: inline-block;
+	width: 100px;
+	padding: 20px;
 }

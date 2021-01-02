@@ -1,11 +1,15 @@
 body{
-	/*background-color: black ;*/
+	background-color: black ;
 }
-
-.head{
-	width: 70%;
-	height: 90px;	
+.up{
 	margin: auto;
+    width: 70%;
+	height:160px; 
+
+}
+.head{
+	width: 100%;
+	height: 90px;	
 }
 .head1
 {
@@ -64,14 +68,56 @@ body{
 
 .nav{
 	background-color: black;
-	width: 70%;
-	margin: auto;
+	width:100%;
+	height: 60px;
 	color: white;
-	text-align: justify;
 
 }
-li{
+.nav li{
 	display: inline-block;
 	width: 100px;
-	padding: 20px;
+	padding: 15px;
+	color: rgba(205,194,194,1.00);
+}
+.nav li:hover{
+	background-color: rgba(57,56,155,1.00);
+}
+
+hr{
+	width: 100%;
+	border: 1px solid grey;
+}
+
+img{
+	width: 100%	;
+	height: 100%;
+}
+h2{
+	color: rgba(57,56,155,1.00);
+}
+
+.contanier
+{
+	background-color:rgba(199,183,183,1.00);
+	width: 70%;
+	margin: auto;
+}
+.down{
+	display: flex;
+}
+.leftp{
+	width: 60%;
+}
+.rightp{
+
+	width: 30%;
+}
+.imgs{
+	display: flex;
+}
+.img1{
+	width: 50%;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 5px;
 }

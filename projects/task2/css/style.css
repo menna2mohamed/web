@@ -1,0 +1,63 @@
+body{
+	/*background-color: black ;*/
+}
+.head{
+	width: 70%;
+	height: 150px;	
+	margin: auto;
+}
+.head1
+{
+
+	width: 80%;
+	height: 150px;
+}
+.head2{
+	float: right;
+
+}
+.fb{
+	background-image: url("../images/social-media/facebook_0.png");
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.fb:hover{
+	background-image: url("../images/social-media/facebook_1.png");
+}
+.twitter{
+	background-image: url("../images/social-media/twitter_0.png");
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.twitter:hover{
+	background-image: url("../images/social-media/twitter_1.png");
+}
+.linkedin{
+	background-image: url("../images/social-media/in_0.png");
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.linkedin:hover{
+	background-image: url("../images/social-media/in_1.png");
+}
+.rss{
+	background-image: url("../images/social-media/rss_0.png");
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+}
+.rss:hover{
+	background-image: url("../images/social-media/rss_1.png");
+}
+.googleplus{
+	background-image: url("../images/social-media/google-plus_0.png");
+	width: 32px;
+	height: 32px;
+	display: inline-block;	
+}
+.googleplus:hover{
+	background-image: url("../images/social-media/google-plus_1.png");
+}

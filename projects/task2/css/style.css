@@ -1,9 +1,7 @@
 body{
 	/*background-color: black ;*/
 }
-.up{
-	position: fixed;
-}
+
 .head{
 	width: 70%;
 	height: 90px;	

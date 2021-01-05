@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+p{
+	padding: 10px;
+}
+.img1{
+	width: 25px;
+}
+.header{
+	width: 100%;
+	height: 70px;
+	background-color: #303b4f;
+	padding: 5px;
+}
+.center{
+	margin: auto;
+	width: 50%;
+	overflow: hidden;
+}
+h3 {
+	display: inline-block;
+	padding: 5px;
+}
+li{
+	display: inline-block;
+	padding: 10px;
+	color: rgba(176,176,176,1.00);
+}
+.upleft{
+	float: left;
+	color: white;
+}
+.upright{
+	float: right;
+}
+.content{
+	width: 25%;
+	float: left;
+	text-align: center;
+	padding-top: 10px;
+	color: rgba(176,176,176,1.00);
+}
+
+h4{
+	padding: 5px; 
+}
+/*.btn1{
+	padding: 5px;
+	margin: 9px;
+	background-color:rgba(211,211,211,1.00);
+}*/
+
+.divimg{
+	padding: 30px;
+	background-color:#2fb4e1;
+	text-align: center;
+	color: white;
+}
+.grpimg{
+	width: 15%;
+	height: 90px;
+	padding: 0;
+}
+
+.bottom{
+	width: 40%;
+	float: left;
+	padding: 4%;
+}
+.bimg{
+	width: 200px;
+	height: 200px;
+}
+
+.btn2 , .btn1 {
+	padding: 10px;
+	margin: 20px;
+	background-color:#1d6f9f;
+	border: 1px solid white;
+	border-radius: 5px;
+	color:rgba(211,211,211,1.00);
+	
+}
+
+
+
+
+
+.hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #303b4f;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
